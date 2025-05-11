@@ -84,32 +84,32 @@ This project implements a dual-channel temperature monitoring module using therm
 - **STM32CubeIDE**
 - **C Language**
 
-## 🔁 System Flow Diagram
+## 📊 System Flow Diagram
 
-System Flow Diagram:
+1. **Initialize Peripherals**  
+   Set up all required microcontroller peripherals.
 
-Initialize Peripherals
-       |
-       v
-Read Thermistor ADCs <--------+
-       |                      |
-       v                      |
-Calculate Temperatures        |
-       |                      |
-       v                      |
-UART Debug Output             |
-       |                      |
-       v                      |
-Send CAN Message              |
-       |                      |
-       v                      |
-Toggle Status LED (PC13)      |
-       |                      |
-       v                      |
-Delay 1 second                |
-       |                      |
-       v                      |
-Repeat (While Loop) ----------+
+2. **Read Thermistor ADCs**  
+   Acquire temperature sensor data by reading ADC values.
+
+3. **Calculate Temperatures**  
+   Convert ADC readings into actual temperature values.
+
+4. **UART Debug Output**  
+   Send the calculated temperature values over UART for debugging.
+
+5. **Send CAN Message**  
+   Transmit the temperature data or related information over the CAN bus.
+
+6. **Toggle Status LED (PC13)**  
+   Toggle the status LED to indicate system activity.
+
+7. **Delay 1 second**  
+   Wait for 1 second before the next cycle.
+
+8. **Repeat (While Loop)**  
+   Loop back and repeat the process continuously.
+
 ## 🛡️ Error Handling Summary
 
 | Fault Type | Detection Method | Action |
@@ -120,9 +120,6 @@ Repeat (While Loop) ----------+
 | CAN TX Failure | TX timeout or error | Retry up to 3 times, then halt |
 | ADC Config Failure | HAL Error | Increment errorCount, fallback 25°C |
 
-## System Block Diagram
-
-![System Schematics](results/Schematic_Temp_module_2023-08-25.pdf)
 
 ## Hardware Setup
 
