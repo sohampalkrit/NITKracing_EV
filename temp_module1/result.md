@@ -131,6 +131,23 @@ Repeat (While Loop)
 | CAN TX Failure | TX timeout or error | Retry up to 3 times, then halt |
 | ADC Config Failure | HAL Error | Increment errorCount, fallback 25°C |
 
+## System Block Diagram
+
+![System Schematics](results/Schematic_Temp_module_2023-08-25.pdf)
+
+## Hardware Setup
+
+![Hardware Setup](results/temp_module1.jpg)
+
+## Config Setup
+
+![config Setup](results/config.jpg)
+
+## Result 
+
+![Result Setup](results/Result_teraterm.jpg)
+
+
 ## 📊 Project Outcomes
 
 - Reliable dual temperature sensing.
