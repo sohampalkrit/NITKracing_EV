@@ -86,17 +86,30 @@ This project implements a dual-channel temperature monitoring module using therm
 
 ## 🔁 System Flow Diagram
 
-```mermaid
-flowchart TD
-    A[Initialize Peripherals] --> B[Read Thermistor ADCs]
-    B --> C[Calculate Temperatures]
-    C --> D[UART Debug Output]
-    D --> E[Send CAN Message]
-    E --> F[Toggle Status LED (PC13)]
-    F --> G[Delay 1 second]
-    G --> H[Repeat (While Loop)]
-    H --> B
-```
+System Flow Diagram:
+
+Initialize Peripherals
+       |
+       v
+Read Thermistor ADCs <--------+
+       |                      |
+       v                      |
+Calculate Temperatures        |
+       |                      |
+       v                      |
+UART Debug Output             |
+       |                      |
+       v                      |
+Send CAN Message              |
+       |                      |
+       v                      |
+Toggle Status LED (PC13)      |
+       |                      |
+       v                      |
+Delay 1 second                |
+       |                      |
+       v                      |
+Repeat (While Loop) ----------+
 ## 🛡️ Error Handling Summary
 
 | Fault Type | Detection Method | Action |
