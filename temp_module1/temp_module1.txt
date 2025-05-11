@@ -1,0 +1,114 @@
+Configuration	temp_module1
+STM32CubeMX 	6.11.0
+Date	10/24/2024
+MCU	STM32F103C8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN1	ADC1_IN1	PA1
+ADC1	IN2	ADC1_IN2	PA2
+ADC1	IN3	ADC1_IN3	PA3
+ADC1	IN4	ADC1_IN4	PA4
+CAN	Activated	CAN_RX	PA11
+CAN	Activated	CAN_TX	PA12
+I2C2	I2C	I2C2_SCL	PB10
+I2C2	I2C	I2C2_SDA	PB11
+SYS	Trace Asynchronous Sw	SYS_JTMS-SWDIO	PA13
+SYS	Trace Asynchronous Sw	SYS_JTCK-SWCLK	PA14
+SYS	Trace Asynchronous Sw	SYS_JTDO-TRACESWO	PB3
+SYS	SYS_WakeUp0	SYS_WKUP	PA0-WKUP
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Synchronous	USART1_CK	PA8
+USART1	Synchronous	USART1_RX	PA10
+USART1	Synchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-TAMPER-RTC	GPIO_Output	GPIO_LED1
+10	PA0-WKUP	SYS_WKUP	
+11	PA1	ADC1_IN1	
+12	PA2	ADC1_IN2	
+13	PA3	ADC1_IN3	
+14	PA4	ADC1_IN4	
+21	PB10	I2C2_SCL	
+22	PB11	I2C2_SDA	
+29	PA8	USART1_CK	
+30	PA9	USART1_TX	
+31	PA10	USART1_RX	
+32	PA11	CAN_RX	
+33	PA12	CAN_TX	
+34	PA13	SYS_JTMS-SWDIO	
+37	PA14	SYS_JTCK-SWCLK	
+39	PB3	SYS_JTDO-TRACESWO	
+40	PB4	GPIO_Output	
+41	PB5	GPIO_Output	
+42	PB6	GPIO_Output	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN1	ADC1_IN1	PA1
+ADC1	IN2	ADC1_IN2	PA2
+ADC1	IN3	ADC1_IN3	PA3
+ADC1	IN4	ADC1_IN4	PA4
+CAN	Activated	CAN_RX	PA11
+CAN	Activated	CAN_TX	PA12
+I2C2	I2C	I2C2_SCL	PB10
+I2C2	I2C	I2C2_SDA	PB11
+SYS	Trace Asynchronous Sw	SYS_JTMS-SWDIO	PA13
+SYS	Trace Asynchronous Sw	SYS_JTCK-SWCLK	PA14
+SYS	Trace Asynchronous Sw	SYS_JTDO-TRACESWO	PB3
+SYS	SYS_WakeUp0	SYS_WKUP	PA0-WKUP
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Synchronous	USART1_CK	PA8
+USART1	Synchronous	USART1_RX	PA10
+USART1	Synchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-TAMPER-RTC	GPIO_Output	GPIO_LED1
+10	PA0-WKUP	SYS_WKUP	
+11	PA1	ADC1_IN1	
+12	PA2	ADC1_IN2	
+13	PA3	ADC1_IN3	
+14	PA4	ADC1_IN4	
+21	PB10	I2C2_SCL	
+22	PB11	I2C2_SDA	
+29	PA8	USART1_CK	
+30	PA9	USART1_TX	
+31	PA10	USART1_RX	
+32	PA11	CAN_RX	
+33	PA12	CAN_TX	
+34	PA13	SYS_JTMS-SWDIO	
+37	PA14	SYS_JTCK-SWCLK	
+39	PB3	SYS_JTDO-TRACESWO	
+40	PB4	GPIO_Output	
+41	PB5	GPIO_Output	
+42	PB6	GPIO_Output	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : temp_module1
+Project Folder : C:\Users\hp\OneDrive\Documents\NR Assignments\Embedded temp_module\temp_module1
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F1 V1.8.6
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

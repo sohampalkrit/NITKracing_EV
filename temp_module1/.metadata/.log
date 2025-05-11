@@ -1,0 +1,46 @@
+!SESSION 2025-04-09 20:32:40.485 -----------------------------------------------
+eclipse.buildId=Version 1.15.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-04-09 20:33:06.935
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-04-09 20:33:06.951
+!MESSAGE Log4j2 initialized with config file C:\Users\hp\OneDrive\Documents\NR\Embedded temp_module\temp_module1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-04-09 20:33:10.441
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-04-09 20:34:09.793 -----------------------------------------------
+eclipse.buildId=Version 1.15.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  C:\Users\hp\OneDrive\Documents\NR\Embedded temp_module\temp_module1\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\hp\OneDrive\Documents\NR\Embedded temp_module\temp_module1\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-04-09 20:34:16.800
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-04-09 20:34:16.802
+!MESSAGE Log4j2 initialized with config file C:\Users\hp\OneDrive\Documents\NR\Embedded temp_module\temp_module1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-04-09 20:34:21.268
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-04-10 20:33:13.669 -----------------------------------------------
+eclipse.buildId=Version 1.15.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\hp\OneDrive\Documents\NR\Embedded temp_module\temp_module1
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-04-10 20:33:45.010
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-04-10 20:33:45.024
+!MESSAGE Log4j2 initialized with config file C:\Users\hp\OneDrive\Documents\NR\Embedded temp_module\temp_module1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-04-10 20:33:51.377
+!MESSAGE Started RMI Server, listening on port 41337
